@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edges">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sams-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 92px;
+            background-color: white;
+            box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin-right: 50px;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        nav ul li a:hover {
+            color: rgb(222, 54, 20);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #a2a2a4;
+            height: 1.1px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+            margin-left: 50px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 76px 0;
+        }
+
+        .firstSection>div {
+            width: 33%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin-left: 50px;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .buttons .btn {
+            padding: 16px;
+            background-color: red;
+            border: 2px solid #3b2e2e;
+            color: white;
+            border-radius: 6px;
+            font-size: 21px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons .btn-link {
+            display: contents;
+            margin-bottom: 20px;
+            /* Adjust the margin as needed */
+        }
+
+        .rightSection img {
+            width: 80%;
+            border-radius: 50px;
+
+        }
+
+        .text-purple {
+            color: rgb(218, 4, 4);
+        }
+
+        .text-grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(218, 4, 4);
+        }
+
+        .secondSection {
+            max-width: 80em;
+            margin: auto;
+            height: 40em;
+        }
+
+        .secondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .secondSection .box {
+            background: rgb(0, 0, 0);
+            width: 70.5em;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: #000000;
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 35px;
+            position: relative;
+            top: -39px;
+            left: -15px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 196px;
+            font-size: 0.1px;
+        }
+
+        .footer {
+            background-color: #393939;
+            backdrop-filter: blur(5px);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            font-style: none;
+            color: white;
+        }
+
+        .footer ul {
+            list-style: none;
+            line-height: 1.5;
+        }
+
+        .footer ul li {
+            font-style: none;
+            color: white;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            background-color: #393939;
+            color: rgb(192, 191, 191);
+            padding: 12px 0;
+        }
+
+        .footer-second {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-third {
+            color: white;
+            text-decoration: none;
+        }
+
+        .link {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mahesh Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/project.html">Projects</a></li>
+                <li><a href="/contactme.html">Contact Me</a></li>
+                <li><a href="/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="text-purple">Mahesh Phalke</span>
+                & I am a passionate <br>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://docs.google.com/document/d/1HpsIki51Zn7kufDJZTIn9K-u0qKW_q4z/edit?usp=drive_link&ouid=113266282580924345507&rtpof=true&sd=true"
+                        class="btn-link">
+                        <button class="btn">Download Resume</button>
+                    </a>
+                    <a href="https://github.com/phalkemm159" class="btn-link">
+                        <button class="btn">Visit GitHub</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="mp2.png" alt="" />
+
+            </div>
+        </section>
+        <hr />
+        <section class="secondSection">
+            <span class="text-grey"> What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2021-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Role: As an Web Developer from 2021 to 2023, I specialized in creating and structuring the
+                        foundation of webpages.
+                        Responsibilities:My responsibilities included crafting accessible HTML code to
+                        enhance user experience and optimize search engine visibility.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="c.png" alt="">
+                    <div class="vertical-title">
+                        C/C++ Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Role: Serving as a C/C++ Developer between 2022 and 2023, I focused on low-level
+                        programming,system-level development.
+                        Experience: This experience honed my skills in performance optimization, and
+                        software development in resource-constrained environments.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2023-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Role: As a Java Developer from 2023 to 2024, I specialized in Java-based application
+                        development.
+                        Experience: During this period, I gained proficiency in Java frameworks, database integration,
+                        and building enterprise-level applications.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2023-)
+                    </div>
+                    <div class="vertical-desc">
+                        Role: Currently, I am a Python Developer, focusing on high-level scripting and application
+                        development.
+                        Responsibilities: I am involved in developing versatile applications, automating processes, and
+                        leveraging Python's capabilities for data analysis and machine learning.
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Mahesh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a class="link" href="/index.html"><i class='bx bxs-home' ></i> Home</a></li>
+                    <li><a class="link" href="/project.html"><i class='bx bx-code-block'></i> Projects</a></li>
+                    <li><a class="link" href="/contactme.html"><i class='bx bxs-contact' ></i> Contact</a></li>
+                    <li><a class="link" href="/about.html"><i class='bx bxs-info-circle' ></i> About</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>
+                        <div class="instagram">
+                            <a class="link"
+                                href="https://www.instagram.com/phalkemm159?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></i><i class='bx bxl-instagram-alt'></i> Instagram</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="linkedin">
+                            <a class="link"
+                                href="https://www.linkedin.com/in/mahesh-phalke159?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9YhXmdVXQSmElL16CVV8hQ%3D%3D"><i class='bx bxl-linkedin-square'></i> Linkedin</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="x">
+                            <a class="link" href=""><i class='bx bxl-twitter'></i> X</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="youtube">
+                            <a class="link" href=""><i class='bx bxl-youtube'></i> YouTube</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-rights">
+            Copyright &copy; maheshsportfolio.com | All rights reserved (2024-25)
+        </p>>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'C/C++ Developer', 'Java Developer', 'Python Developer'],
+            typeSpeed: 50,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
